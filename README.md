@@ -2,7 +2,7 @@
 
 Данная лабораторная работа посвещена изучению систем организации совместных сеансов разработки на примере **tmux**
 
-```bash
+```ShellSession
 $ open https://wiki.archlinux.org/index.php/Tmux_(Русский)
 ```
 
@@ -14,17 +14,17 @@ $ open https://wiki.archlinux.org/index.php/Tmux_(Русский)
 
 ## Tutorial
 
-```bash
+```ShellSession
 $ tmux
 $ tmux new -s myname
 ```
 
-```bash
+```ShellSession
 $ tmux a
 $ tmux a -t myname
 ```
 
-```bash
+```ShellSession
 $ tmux ls
 $ tmux kill-session -t myname
 ```
@@ -57,7 +57,7 @@ $ tmux kill-session -t myname
 
 ## Report
 
-```bash
+```ShellSession
 $ cd ~/workspace/labs/
 $ export LAB_NUMBER=16
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER}
