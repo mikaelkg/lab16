@@ -29,12 +29,12 @@ $ tmux ls
 $ tmux kill-session -t myname
 ```
 
-```tmux
+```ShellSession
 <C-B>s
 <C-B>$
 ```
 
-```tmux
+```ShellSession
 <C-B>c
 <C-B>w
 <C-B>n
@@ -44,7 +44,7 @@ $ tmux kill-session -t myname
 <C-B>&
 ```
 
-```tmux
+```ShellSession
 <C-B>%
 <C-B>"
 <C-B>o
